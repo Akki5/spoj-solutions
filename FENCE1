@@ -1,0 +1,14 @@
+import java.util.*;
+class FENCE1 {
+public static void main(String arg[])
+{
+	Scanner ob=new Scanner(System.in);
+	double l=ob.nextDouble();
+	while(l!=0)
+	{
+		l=l*l/3.14159/2;
+		System.out.printf("%.2f\n",l);
+		l=ob.nextDouble();
+	}
+}
+}
